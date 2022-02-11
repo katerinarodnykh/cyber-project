@@ -8,21 +8,41 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="red">
-    ntrcn
-</div>
-<div class="test">
-    <div class="test__word"><span>Test</span></div>
-</div>
-<div class="text">
-    <span class="text__proxima_black">Text 1</span>
-    <span class="text__proxima_extrabold">Text 2</span>
-    <span class="text__proxima_bold">Text 3</span>
-    <span class="text__proxima_semibold">Text 4</span>
-    <span class="text__proxima_regular">Text 5</span>
-    <span class="text__roboto_bold">Text 6</span>
-    <span class="text__roboto_regular">Text 7</span>
-</div>
+    <!--Созданию общий контейнер для всей страницы-->
+    <div class="container">
+        <!--Созданию контентную часть-->
+        <main class="container__content">
+            <!--Создаю шапку страницы-->
+            <header class="header">
+                <!--Контейнер для логотипа федерации в левой части-->
+                <div class="header__logo">
+                    <!--Добавляю большие, цветные крылья-->
+                    <img src="img/big-wings.svg" alt="big-colourful-wings" class="logo__icon-color">
+                    <!-- Добавляю маленькие, белые крылья-->
+                    <img src="img/little-wings.svg" alt="little-white-wings" class="logo__icon-white">
+                    <!--Добавляю вертикальную линию разделения-->
+                    <img src="img/vert-line.svg" alt="white-vertical-line" class="logo__vert-line">
+                    <img src="img/fed-name.svg" alt="federation-name" class="logo__fed-name">
+                </div>
+                <!--Контейнер для навигационного меню-->
+                <nav class="header__nav">
+                    <img src="img/home.svg" alt="home-icon" class="nav__home">
+                    <img src="img/joystick.svg" alt="joystick" class="nav__joystick">
+                    <img src="img/star.svg" alt="favourite" class="nav__star">
+                    <img src="img/camera.svg" alt="streams" class="nav__camera">
+                    <img src="img/shield.svg" alt="protection" class="nav__shield">
+                </nav>
+                <!-- Контейнер для иконок пользователя и поиска-->
+                <div class="header__user">
+                    <div><img src="img/glass.svg" alt="search" class="user__glass"></div>
+                    <div><img src="img/profile.svg" alt="user's-profile" class="user__profile"></div>
+                </div>
+            </header>
+        </main>
+    </div>
 
+
+
+</div>
 </body>
 </html>

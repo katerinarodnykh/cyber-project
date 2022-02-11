@@ -75,74 +75,46 @@
     url("../fonts/Roboto-Regular.ttf") format("ttf");
 }
 
-:root {
-    --main-text-color:green;
+html {
+    box-sizing: border-box;
 }
 
-.text__proxima_black {
-    color: var(--main-text-color);
-    font-family: "ProximaNova", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+body {
+
 }
 
-.text__proxima_extrabold {
-    font-family: "ProximaNova", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
 }
 
-.text__proxima_bold {
-    color: var(--main-text-color);
-    font-family: "ProximaNova", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+container__content {
+    width: 70%;
+    height: 100%;
+    background-color: #000000;
 }
 
-.text__proxima_semibold {
-    font-family: "ProximaNova", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 2%;
+    background-color: #15141C;
 }
 
-.text__proxima_regular {
-    color: var(--main-text-color);
-    font-family: "ProximaNova", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
+header__logo {
+    display: flex;
+    justify-content: flex-start;
+}
+header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text__roboto_bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.text__roboto_regular {
-    color: var(--main-text-color);
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 20px;
-}
-
-.red {
-    color: red;
-    font-family: "ProximaNova", sans-serif;
-    font-weight: 800;
-}
 
 
