@@ -10,44 +10,60 @@
 <body>
    <div class="container">
        <!--Creating the page-->
-       <main class="content">
+       <div class="page">
            <!--Creating the header-->
            <header class="header">
               <!-- Creating the main federation logo-->
-               <div class="header__logo">
-                   <a href="#" class="header__link">
-                       <img src="img/logo.svg" alt="federation-logo">
+               <div class="header__content-top">
+                   <a class="header__logo" href="#">
+                       <img src="img/logo.svg" alt="Цветной логотип федерации компьютерного спорта России" width="412px" height="166px">
                    </a>
                </div>
                <!--Creating the navigation menu-->
                <nav class="navigation">
-                   <a href="#" class="navigation__link">
-                       <img src="img/home.svg" alt="home-icon" class="navigation__home">
-                   </a>
-                   <a href="#" class="navigation__link">
-                       <img src="img/joystick.svg" alt="joystick" class="navigation__joystick">
-                   </a>
-                   <a href="#" class="navigation__link">
-                       <img src="img/star.svg" alt="favourite" class="navigation__star">
-                   </a>
-                   <a href="#" class="navigation__link">
-                       <img src="img/camera.svg" alt="streams" class="navigation__camera">
-                   </a>
-                   <a href="#" class="navigation__link">
-                       <img src="img/shield.svg" alt="defence" class="navigation__shield">
-                   </a>
+                   <ul class="navigation__list">
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="#">
+                                <img class="navigation__icon" src="img/home.svg" alt="Перейти на домашнюю страницу сайта" width="60px" height="61px">
+                            </a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="#">
+                                <img class="navigation__icon" src="img/joystick.svg" alt="Перейти к разделу выбора игр" width="60px" height="61px">
+                            </a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="#">
+                                <img class="navigation__icon" src="img/star.svg" alt="Перейти в избранное" width="60px" height="61px">
+                            </a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="#">
+                                <img class="navigation__icon" src="img/camera.svg" alt="Перейти к записям стримов" width="60px" height="61px">
+                            </a>
+                        </li>
+                        <li class="navigation__list-item">
+                            <a class="navigation__link" href="#">
+                                <img class="navigation__icon" src="img/shield.svg" alt="Перейти к обращению в службу поддержки" width="60px" height="61px">
+                            </a>
+                        </li>
+                   </ul>
                </nav>
                <!--Creating user's part with search-->
-               <div class="user">
-                   <a href="#" class="user__link">
-                       <img src="img/search.svg" alt="search" class="user__search">
-                   </a>
-                   <a href="#" class="user__link">
-                       <img src="img/profile.svg" alt="profile" class="user__profile">
-                   </a>
-               </div>
+               <ul class="user">
+                   <li class="navigation__list-item">
+                       <a class="user__link" href="#">
+                            <img class="user__icon" src="img/search.svg" alt="Перейти к поиску по сайту" width="20px" height="20px">
+                        </a>
+                   </li>
+                   <li class="navigation__list-item">
+                       <a class="user__link" href="#">
+                           <img class="user__icon" src="img/profile.svg" alt="Перейти в профиль пользователя" width="35px" height="35px">
+                       </a>
+                   </li>
+               </ul>
            </header>
-       </main>
+       </div>
    </div>
 </body>
 </html>
