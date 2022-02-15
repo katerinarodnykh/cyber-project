@@ -148,6 +148,7 @@ ul {
     display: flex;
     gap: 48px;
     box-shadow: inset 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
 
 .navigation__link {
