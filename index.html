@@ -8,21 +8,56 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-<div class="red">
-    ntrcn
+<div class="content">
+    <header class="header">
+        <!-- Creating the main federation logo-->
+        <a class="header__logo" href="#">
+            <img src="img/logo.svg" alt="Цветной логотип федерации компьютерного спорта России" width="412" height="166">
+        </a>
+        <!--Creating the navigation menu-->
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li class="navigation__item header__item">
+                    <a class="navigation__link navigation__link_active" href="#">
+                        <img class="navigation__icon" src="img/home.svg" alt="Перейти на домашнюю страницу сайта" width="60" height="60">
+                    </a>
+                </li>
+                <li class="navigation__item header__item">
+                    <a class="navigation__link navigation__link_active" href="#">
+                        <img class="navigation__icon" src="img/joystick.svg" alt="Перейти к разделу выбора игр" width="60" height="60">
+                    </a>
+                </li>
+                <li class="navigation__item header__item">
+                    <a class="navigation__link navigation__link_active" href="#">
+                        <img class="navigation__icon" src="img/star.svg" alt="Перейти в избранное" width="60" height="60">
+                    </a>
+                </li>
+                <li class="navigation__item header__item">
+                    <a class="navigation__link navigation__link_active" href="#">
+                        <img class="navigation__icon" src="img/camera.svg" alt="Перейти к записям стримов" width="60" height="60">
+                    </a>
+                </li>
+                <li class="navigation__item header__item">
+                    <a class="navigation__link navigation__link_active" href="#">
+                        <img class="navigation__icon" src="img/shield.svg" alt="Перейти к обращению в службу поддержки" width="60" height="60">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <!--Creating user's part with search-->
+        <ul class="user">
+            <li class="user__item header__item">
+                <a class="user__link user__link_shadow" href="#">
+                    <img class="user__icon" src="img/search.svg" alt="Перейти к поиску по сайту" width="20" height="20">
+                </a>
+            </li>
+            <li class="user__item header__item">
+                <a class="user__link" href="#">
+                    <img class="user__icon" src="img/profile.svg" alt="Перейти в профиль пользователя" width="35" height="35">
+                </a>
+            </li>
+        </ul>
+    </header>
 </div>
-<div class="test">
-    <div class="test__word"><span>Test</span></div>
-</div>
-<div class="text">
-    <span class="text__proxima_black">Text 1</span>
-    <span class="text__proxima_extrabold">Text 2</span>
-    <span class="text__proxima_bold">Text 3</span>
-    <span class="text__proxima_semibold">Text 4</span>
-    <span class="text__proxima_regular">Text 5</span>
-    <span class="text__roboto_bold">Text 6</span>
-    <span class="text__roboto_regular">Text 7</span>
-</div>
-
 </body>
 </html>
